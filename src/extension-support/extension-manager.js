@@ -18,6 +18,7 @@ const Scratch3Speech2TextBlocks = require('../extensions/scratch3_speech2text');
 const Scratch3Ev3Blocks = require('../extensions/scratch3_ev3');
 const Scratch3MakeyMakeyBlocks = require('../extensions/scratch3_makeymakey');
 const Scratch3BoostBlocks = require('../extensions/scratch3_boost');
+const Scratch3ARduinoBlocks = require('../extensions/scratch3_arduino');
 // todo: only load this extension once we have a compatible way to load its
 // Vernier module dependency.
 // const Scratch3GdxForBlocks = require('../extensions/scratch3_gdx_for');
@@ -33,7 +34,8 @@ const builtinExtensions = {
     speech2text: Scratch3Speech2TextBlocks,
     ev3: Scratch3Ev3Blocks,
     makeymakey: Scratch3MakeyMakeyBlocks,
-    boost: Scratch3BoostBlocks
+    boost: Scratch3BoostBlocks, 
+    arduino : Scratch3ARduinoBlocks
     // gdxfor: Scratch3GdxForBlocks
 };
 
