@@ -34,8 +34,8 @@ const builtinExtensions = {
     speech2text: Scratch3Speech2TextBlocks,
     ev3: Scratch3Ev3Blocks,
     makeymakey: Scratch3MakeyMakeyBlocks,
-    boost: Scratch3BoostBlocks, 
-    arduino : Scratch3ARduinoBlocks
+    boost: Scratch3BoostBlocks,
+    arduino: Scratch3ARduinoBlocks
     // gdxfor: Scratch3GdxForBlocks
 };
 
