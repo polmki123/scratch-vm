@@ -120,14 +120,3 @@ npm run deploy -- -r <your repo url>
 
 ## Donate
 We provide [Scratch](https://scratch.mit.edu) free of charge, and want to keep it that way! Please consider making a [donation](https://secure.donationpay.org/scratchfoundation/) to support our continued engineering, design, community, and resource development efforts. Donations of any size are appreciated. Thank you!
-
-#2020-08-30 추가적인 변경사항
-npm test를 했을 경우 에러가 나는 경우 대처하는 법
-```
-if (lookupPaths[0] === targetPath && lookupPaths[1].length === 0) {
-```
-과 같이 ~~ jsdoc 에러가 나는 경우가 있다 이 경우에는
-```
-npm instll --save-dev -g jsdoc 
-```
-을 설치하면 에러를 해결 할 수 있다. 버전 차이로 인해 문제가 생긴 것이다. 
